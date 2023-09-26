@@ -60,7 +60,7 @@ public class GoogleSearchUITests {
             // Verify image search results
            Assert.assertTrue(driver.findElements(By.cssSelector(".rg_i")).size() > 0);
            By imageXPath = By.xpath("//*[@id='islrg']/div[1]/div[1]/a[1]/div[1]/img");
-            Assert.assertTrue(driver.findElements(imageXPath).size() > 0);     
+           Assert.assertTrue(driver.findElements(imageXPath).size() > 0);     
         }
 
 
